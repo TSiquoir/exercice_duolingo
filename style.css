@@ -1,0 +1,51 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo', cursive;
+}
+
+.question {
+    font-size: x-large;
+    color: rgb(85, 85, 85);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    margin: 10px;
+    
+    
+}
+
+.box
+{
+    margin-bottom: 10px;
+    padding: 15px;
+    border: solid rgb(224, 224, 224);
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px rgb(224, 224, 224);
+}
+
+.box:active {
+    
+    background-color: yellow;
+}
+
+.img_title {
+    text-align: center;
+    font-size: larger;
+    margin-top: 40px;
+}
+
+.btn_validate {
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(106, 202, 28);
+    box-shadow: 0px 5px 0px rgb(71, 167, 16);
+    border-radius: 20px;
+    color: white;
+    font-size: large;
+}
